@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-color: #dda0dd;
+    position: relative; /*serve para deixar o rodapé acompanhando o texto para ir para baixo, mas esse só para conseguir mexer no rodapé*/
+    min-height: 100vh; /*esse serve para ele ir preenchendo os campos em brancos*/
+}
+#cabecalho{
+    background-color: #ba55d3;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+#logo{
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    font-family: 'Madimi One', 'tahoma';
+    font-size: 350%;
+    cursor:pointer;
+}
+#menu{
+    width:100%;
+    text-align: center;
+    color: #fffafa;
+    padding: 20px 0;
+    font-family: 'montserrat';
+}
+#menu li{
+    list-style-type: none;
+    display:inline;
+    cursor:pointer; /*para virar mãozinha*/
+    padding:1% 1% 1% 1%; /*para espaçar*/
+}
+#menu li a{
+    text-decoration: none; /*tirar sublinhado do link*/
+    color: inherit;
+}
+#menu li:hover{
+    /*para acontecer alguma coisa quando passa*/
+    padding-bottom: 0.4em;
+    border-bottom: 0.3em solid #da70d6;
+    /*ou usa o backgroudcolor, o comando para acontecer alguma coisa quando passa o mouse é o hover*/
+}
+#content{
+    margin-top: 220px; /*para descolar a imagem do titulo*/
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 55px;
+}
+#content p{
+    text-align: justify;
+    line-height: 20px;
+    padding-top: 10px;
+}
+#content a{
+    text-decoration: none;
+    color: inherit;
+    color: #fff;
+}
+#content p:first-child, #content h2{
+    text-align: center;
+}
+#content h2{
+    padding-top: 20px;
+}
+#content img{
+    width:50%;
+    height:50%;
+}
+#footer{
+    background-color: #ba55d3;
+    width:100%;
+    height:50px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+#footer p{
+    text-align: center;
+    padding: 17px 0;
+    font-family: 'montserrat';
+}
