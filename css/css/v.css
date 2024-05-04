@@ -11,7 +11,7 @@ header{
 }
 body{
     position: relative;
-    min-height: 100vh;
+    min-height: 70vh;
     overflow-x: hidden;
     padding-top: 200px;
     background-color: #EE82EE;
@@ -57,10 +57,8 @@ h1{
 }
 #VELA{
     grid-column: 1/4;
-    min-height: 400px;
     display: flex;
     padding: 1%;
-    margin-bottom: 20px;
 }
 .corpo-vela{
     width: 38%;
@@ -74,14 +72,16 @@ h1{
 .corpo-vela p{
     padding: 2%;
     text-align: justify;
+    font-size: 1.2vw;
+    font-size: 4vh;
 }
 .corpo-vela a{
     text-decoration: none;
     color: inherit;
 }
 #VELA img{
-    width: 50%;
-    height: 100%;
+    width: 50vw;
+    height: 100vh;
     text-align: right;
 }
 #velinhas{
@@ -93,7 +93,8 @@ h1{
 }
 #velinhas img{
     max-width: 100%;
-    height: auto;
+    width: 18vw;
+    height: 70vh;
 }
 article{
     flex: 1 1 31.33%;
