@@ -47,13 +47,11 @@ main{
     /*margin: 0 auto;*/
     display: grid; /*serve para separar em grids e não em blocos mais*/
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #EE82EE;
 }
-h1{
-    background-color: #EE82EE;
-    text-align: center;
-    font-family: 'Madimi One', 'Tahoma';
-    color: #fff;
+#velacenter{
+    margin-left: 125%;
+    margin-bottom: 20%;
+    margin-top: 10%;
 }
 #VELA{
     grid-column: 1/4;
@@ -90,6 +88,8 @@ h1{
     flex-wrap: wrap; /*pula linha automaticamente quando nescessario*/
     padding-bottom: 70px;
     justify-content: center;
+    margin-left: 8%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 #velinhas img{
     max-width: 100%;
